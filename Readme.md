@@ -6,7 +6,7 @@
 [![Status](https://img.shields.io/badge/Status-InProgress-yellow)]()
 
 > **"Early detection saves lives."**
-> A Deep Learning project designed to classify MRI scans into different types of brain cancer using a custom VGG-inspired Convolutional Neural Network (CNN).
+> A Deep Learning project designed to classify MRI scans into different types of brain tumor using a custom VGG-inspired Convolutional Neural Network (CNN).
 
 ---
 
@@ -30,7 +30,7 @@
 
 ## 🧐 Overview
 
-This project aims to develop an AI model to assist medical professionals in diagnosing and classifying brain cancer from MRI scans. By automating the initial feature extraction and classification process, this tool seeks to reduce diagnostic time and improve screening accuracy.
+This project aims to develop an AI model to assist medical professionals in diagnosing and classifying brain tumor from MRI scans. By automating the initial feature extraction and classification process, this tool seeks to reduce diagnostic time and improve screening accuracy.
 
 **Key Features:**
 - ✅ **Multi-class Classification:** Capable of classifying 3 distinct tumor types (Glioma, Meningioma, Pituitary).
