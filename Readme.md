@@ -3,16 +3,16 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/Framework-TensorFlow%20%2F%20Keras-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Completed-brightgreen)]()
+[![Status](https://img.shields.io/badge/Status-InProgress-yellow)]()
 
 > **"Early detection saves lives."**
-> A Deep Learning project designed to classify MRI scans into different types of brain tumors using a custom VGG-inspired Convolutional Neural Network (CNN).
+> A Deep Learning project designed to classify MRI scans into different types of brain cancer using a custom VGG-inspired Convolutional Neural Network (CNN).
 
 ---
 
 ## 📸 Demo Preview
 
-![Project Demo](assets/demo_preview.gif)
+![Project Demo]([assets/demo_preview.gif](https://github.com/PrasitPaisan/brain-cancer-classification-cnn/blob/4259b2241af5d1d38f87c5767e38a7e83d578d7a/img_info/banner.png))
 
 ---
 
@@ -30,7 +30,7 @@
 
 ## 🧐 Overview
 
-This project aims to develop an AI model to assist medical professionals in diagnosing and classifying brain tumors from MRI scans. By automating the initial feature extraction and classification process, this tool seeks to reduce diagnostic time and improve screening accuracy.
+This project aims to develop an AI model to assist medical professionals in diagnosing and classifying brain cancer from MRI scans. By automating the initial feature extraction and classification process, this tool seeks to reduce diagnostic time and improve screening accuracy.
 
 **Key Features:**
 - ✅ **Multi-class Classification:** Capable of classifying 3 distinct tumor types (Glioma, Meningioma, Pituitary).
@@ -50,13 +50,13 @@ The model was trained on the [Multi Cancer Dataset (Kaggle)](https://www.kaggle.
 3. **Pituitary Tumor**
    - A tumor that forms in the pituitary gland at the base of the brain.
 
-![Dataset Samples](assets/dataset_sample.png)
+![Dataset Samples]([assets/dataset_sample.png](https://github.com/PrasitPaisan/brain-cancer-classification-cnn/blob/4259b2241af5d1d38f87c5767e38a7e83d578d7a/img_info/brain_cancer.png))
 
 ---
 
 ## 🏗 Model Architecture
 
-We utilized a **Custom CNN architecture inspired by VGG-16**, designed to effectively extract hierarchical features from MRI scans while maintaining computational efficiency. The model employs a block-based structure characterized by repeated convolutional layers followed by pooling.
+We utilized a **Custom CNN architecture inspired by VGG**, designed to effectively extract hierarchical features from MRI scans while maintaining computational efficiency. The model employs a block-based structure characterized by repeated convolutional layers followed by pooling.
 
 ### Implementation Details
 The architecture consists of 3 main Convolutional Blocks followed by a Fully Connected classifier.
@@ -95,8 +95,9 @@ model = keras.Sequential([
     layers.Dense(len(class_names), activation='softmax')
 ])
 
+```
 
-## 📊 Performance
+### 📊 Performance
 
 The model was evaluated on an independent test set of 2,253 MRI images. The results demonstrate high accuracy and robust generalization, with minimal overfitting as shown in the loss curves.
 
@@ -110,12 +111,12 @@ The model was evaluated on an independent test set of 2,253 MRI images. The resu
 ### Training History
 The training and validation accuracy curves rise steadily, converging around 97-98%. The loss curves decrease in tandem, indicating that the `Dropout` and `Data Augmentation` strategies effectively prevented overfitting.
 
-![Training History](assets/loss_accuracy_graph.png)
+![Training History](https://github.com/PrasitPaisan/brain-cancer-classification-cnn/blob/4259b2241af5d1d38f87c5767e38a7e83d578d7a/img_info/loss_and_accuracy_graph.png)
 
 ### Confusion Matrix
-The confusion matrix highlights the model's ability to distinguish between tumor types with high precision.
+The confusion matrix highlights the model's ability to distinguish between cancer types with high precision.
 - **Glioma:** 98% accuracy
 - **Meningioma:** 96% accuracy
 - **Pituitary (brain_tumor):** 99% accuracy
 
-![Confusion Matrix](assets/confusion_matrix.png)
+![Confusion Matrix]([assets/confusion_matrix.png](https://github.com/PrasitPaisan/brain-cancer-classification-cnn/blob/4259b2241af5d1d38f87c5767e38a7e83d578d7a/img_info/confusion-metrix.png))
