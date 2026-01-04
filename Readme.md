@@ -12,7 +12,7 @@
 
 ## 📸 Demo Preview
 
-![Project Demo]([assets/demo_preview.gif](https://github.com/PrasitPaisan/brain-cancer-classification-cnn/blob/4259b2241af5d1d38f87c5767e38a7e83d578d7a/img_info/banner.png))
+![Project Demo](https://github.com/PrasitPaisan/brain-cancer-classification-cnn/blob/69c848aa68f4a70d90fe24be573db3f0c6f1b2fc/img_info/banner.png)
 
 ---
 
@@ -50,7 +50,7 @@ The model was trained on the [Multi Cancer Dataset (Kaggle)](https://www.kaggle.
 3. **Pituitary Tumor**
    - A tumor that forms in the pituitary gland at the base of the brain.
 
-![Dataset Samples]([assets/dataset_sample.png](https://github.com/PrasitPaisan/brain-cancer-classification-cnn/blob/4259b2241af5d1d38f87c5767e38a7e83d578d7a/img_info/brain_cancer.png))
+![Dataset Samples](https://github.com/PrasitPaisan/brain-cancer-classification-cnn/blob/69c848aa68f4a70d90fe24be573db3f0c6f1b2fc/img_info/brain_cancer.png)
 
 ---
 
@@ -119,4 +119,4 @@ The confusion matrix highlights the model's ability to distinguish between cance
 - **Meningioma:** 96% accuracy
 - **Pituitary (brain_tumor):** 99% accuracy
 
-![Confusion Matrix]([assets/confusion_matrix.png](https://github.com/PrasitPaisan/brain-cancer-classification-cnn/blob/4259b2241af5d1d38f87c5767e38a7e83d578d7a/img_info/confusion-metrix.png))
+![Confusion Matrix](https://github.com/PrasitPaisan/brain-cancer-classification-cnn/blob/69c848aa68f4a70d90fe24be573db3f0c6f1b2fc/img_info/confusion-metrix.png)
