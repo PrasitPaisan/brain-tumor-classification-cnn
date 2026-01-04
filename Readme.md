@@ -1,4 +1,4 @@
-# 🧠 Brain Cancer Classification using Deep Learning
+# 🧠 Brain Tumor Classification using Deep Learning
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/Framework-TensorFlow%20%2F%20Keras-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
