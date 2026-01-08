@@ -21,10 +21,6 @@
 - [Dataset](#-dataset)
 - [Model Architecture](#-model-architecture)
 - [Performance](#-performance)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Future Work](#-future-work)
-- [License](#-license)
 
 ---
 
